@@ -196,6 +196,7 @@ function resetGame() {
     updateHighScore();
     snake = [{x: 10, y: 10}];
     food = generateFood();
+    gameSpeedDelay = 200;
     stopGame();
 }
 
